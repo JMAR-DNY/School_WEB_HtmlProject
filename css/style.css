@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 850px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+
+#content_2{
+height:900px;
+}
+
+.back{text-decoration:none;}
+
+.back:hover{color:white;
+background-color:black;}
+
+sup a{
+text-decoration:none;
+}
+
+
+a.anchor{
+display:block;
+position:relative;
+top:-70px;
+visibility:hidden;}
+
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background: url(../Images/bluesky1.jpg);
+    background-attachment: fixed;
+	width:100%;
+	background-size:   cover;                      
+    background-repeat: no-repeat;
+	background-color:black;
+}
+#wall_2 {
+    background: url(../Images/earthfromspace.jpg);
+    background-attachment: fixed;
+	width:100%;
+	background-size:   cover;                      
+    background-repeat: no-repeat;
+	background-color:black;
+}
+#wall_3 {
+    background: url(../Images/sunset.jpg);
+    background-attachment: fixed;
+	width:100%;
+	background-size:   cover; 
+	background-repeat: no-repeat;
+	background-color:black;	
+}
+
+
+#nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+    height: 40px;
+    width: 213px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 50px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+    
+}
+#nav ul {
+	width:100%;
+    list-style-type: none;
+    margin: 15px -400px;
+    padding: .25em;
+	font-size:2.0vw;
+	float:right;
+	font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;	
+} 
+
+#nav li {
+    display: inline;
+}
+#nav a{
+	color:#002080;
+	border-radius:.25em;
+	text-decoration:none;
+	padding:.25em;
+	-o-transition:color .2s ease-out, background .3s ease-in;
+  -ms-transition:color .2s ease-out, background .3s ease-in;
+  -moz-transition:color .2s ease-out, background .3s ease-in;
+  -webkit-transition:color .2s ease-out, background .3s ease-in;
+  transition:color .2s ease-out, background .3s ease-in;
+}
+
+#nav a:hover{
+	color:white;
+	background-color:#002080;	
+}
+
+#content_1 {position: relative;}
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
